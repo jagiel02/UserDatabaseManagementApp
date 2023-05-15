@@ -105,8 +105,3 @@ def edit_user(db: Database, user_name: str, user_lname: str, choose_option: int,
         db.update_user(user["_id"], new_values)
         updated_country = db.find_user(user_name, user_lname)
         print(f"You have just updated {user} to {updated_country}")
-
-
-
-
-
