@@ -31,4 +31,4 @@ To select an option, enter the corresponding number and press enter. Follow the 
 
 ## Credits
 
-This application was created by [Your Name].
+This application was created by Mikołaj Jagielak / jagiel02.
