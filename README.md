@@ -1,4 +1,4 @@
-# User Database Management System
+# User Database Management App
 
 This is a simple command line application that allows you to manage user data in a database.
 
