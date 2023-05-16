@@ -5,7 +5,8 @@ from app.config import Database
 
 class TestDatabase(unittest.TestCase):
     def setUp(self):
-        self.uri = "mongodb+srv://admin:123@cluster0.mialuel.mongodb.net/?retryWrites=true&w=majority"
+        #Mongodb linkt
+        self.uri = " "
         self.database_name = "UsersDB_test"
         self.collection_name = "users"
         self.db = Database(self.uri, self.database_name, self.collection_name)
