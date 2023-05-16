@@ -1,6 +1,6 @@
 from app.config import save_user_data, edit_user
 from app.config import Database
-db = Database(" ")
+db = Database(" ", "UsersDB", "users")
 if __name__ == '__main__':
     while True:
         print("Choose an option:")
